@@ -1,0 +1,201 @@
+2023-12-30 13:10:48 - INFO. Server listening on localhost:8080...
+2023-12-30 13:11:00 - INFO. Accepting connection from ('127.0.0.1', 64823)
+2023-12-30 13:11:00 - INFO. Accepting connection from ('127.0.0.1', 64824)
+2023-12-30 13:11:00 - INFO. Accepting connection from ('127.0.0.1', 64825)
+2023-12-30 13:11:01 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'none', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:01 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:01 - INFO. User None request download.
+2023-12-30 13:11:01 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:01 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:05 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/student1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:05 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:05 - INFO. User None request download.
+2023-12-30 13:11:05 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:05 - INFO. [Download] Successfully downloaded data/student1/06bellman-ford.pdf.
+2023-12-30 13:11:22 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/student1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"', 'If-None-Match': 'W/"17a-GBiPmmDiNRSXo6CIf02N8kDLsEs"'}
+2023-12-30 13:11:22 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:22 - INFO. User None request download.
+2023-12-30 13:11:22 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:22 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:25 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:25 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:25 - INFO. User None request download.
+2023-12-30 13:11:25 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:25 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:28 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:28 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:28 - INFO. User None request download.
+2023-12-30 13:11:28 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:28 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:30 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:30 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:30 - INFO. User None request download.
+2023-12-30 13:11:30 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:30 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:33 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/11912113/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:33 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:33 - INFO. User None request download.
+2023-12-30 13:11:33 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:33 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:34 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:34 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:34 - INFO. User None request download.
+2023-12-30 13:11:34 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:34 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:37 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/student1/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:37 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:37 - INFO. User None request download.
+2023-12-30 13:11:37 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:37 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:38 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:38 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:38 - INFO. User None request download.
+2023-12-30 13:11:38 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:38 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:39 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/student1/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:39 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:39 - INFO. User None request download.
+2023-12-30 13:11:39 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:39 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:40 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:40 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:40 - INFO. User None request download.
+2023-12-30 13:11:40 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:40 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:42 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/11912113/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:42 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:42 - INFO. User None request download.
+2023-12-30 13:11:42 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:42 - INFO. [Download] HTTP=0.
+2023-12-30 13:11:45 - INFO. Handling request from ('127.0.0.1', 64823), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:11:45 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:11:45 - INFO. User None request download.
+2023-12-30 13:11:45 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:11:45 - INFO. [Download] HTTP=0.
+2023-12-30 13:20:23 - INFO. Accepting connection from ('127.0.0.1', 63671)
+2023-12-30 13:20:23 - INFO. Accepting connection from ('127.0.0.1', 63672)
+2023-12-30 13:20:23 - INFO. Accepting connection from ('127.0.0.1', 63673)
+2023-12-30 13:20:23 - INFO. Handling request from ('127.0.0.1', 63671), Method: GET, Request_Header: {'Host': 'localhost:8080', 'Connection': 'keep-alive', 'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Microsoft Edge";v="120"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'Sec-Fetch-Site': 'same-origin', 'Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-User': '?1', 'Sec-Fetch-Dest': 'document', 'Referer': 'http://localhost:8080/student1/', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'Cookie': 'Idea-491adec6=95640a51-76ec-44ba-978e-f11c60b51a2a; username-localhost-8888="2|1:0|10:1701954398|23:username-localhost-8888|44:MzI1YzUyYjc4ODZiNDI0ZWI4N2JkNGJjZWUwY2I0ZmQ=|60abf6e5e3166ae767d06f2277ce0f9a536ba7d6ce1f8713688a106d2bfff578"'}
+2023-12-30 13:20:23 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:20:23 - INFO. User None request download.
+2023-12-30 13:20:23 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:20:23 - INFO. [Download] HTTP=0.
+2023-12-30 13:39:37 - INFO. Accepting connection from ('127.0.0.1', 64776)
+2023-12-30 13:40:32 - INFO. Accepting connection from ('127.0.0.1', 64855)
+2023-12-30 13:40:32 - INFO. Handling request from ('127.0.0.1', 64855), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:40:32 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:32 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1'}.
+2023-12-30 13:40:32 - INFO. User client1 request check login.
+2023-12-30 13:40:32 - INFO. User client1 successfully checked login.
+2023-12-30 13:40:34 - INFO. Accepting connection from ('127.0.0.1', 64857)
+2023-12-30 13:40:35 - INFO. Handling request from ('127.0.0.1', 64857), Method: GET, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:40:35 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:35 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1'}.
+2023-12-30 13:40:35 - INFO. User client1 request download.
+2023-12-30 13:40:35 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:40:35 - INFO. [Download] HTTP=0.
+2023-12-30 13:40:40 - INFO. Accepting connection from ('127.0.0.1', 64862)
+2023-12-30 13:40:41 - INFO. Handling request from ('127.0.0.1', 64862), Method: POST, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '0'}
+2023-12-30 13:40:41 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:41 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1'}.
+2023-12-30 13:40:41 - INFO. User client1 request check login.
+2023-12-30 13:40:41 - ERROR. 405 Method Not Allowed.
+2023-12-30 13:40:52 - INFO. Accepting connection from ('127.0.0.1', 64875)
+2023-12-30 13:40:53 - INFO. Handling request from ('127.0.0.1', 64875), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:40:53 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:53 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1'}.
+2023-12-30 13:40:53 - INFO. User client1 request download.
+2023-12-30 13:40:53 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:40:53 - INFO. [Download] HTTP=0.
+2023-12-30 13:40:53 - INFO. Handling request from ('127.0.0.1', 64875), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Cookie': 'session-id=34774062'}
+2023-12-30 13:40:53 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:53 - INFO. User client1 request download.
+2023-12-30 13:40:53 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:40:53 - INFO. [Download] HTTP=0.
+2023-12-30 13:40:57 - INFO. Accepting connection from ('127.0.0.1', 64876)
+2023-12-30 13:40:57 - INFO. Handling request from ('127.0.0.1', 64876), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:40:57 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:57 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1'}.
+2023-12-30 13:40:57 - INFO. User client1 request download.
+2023-12-30 13:40:57 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:40:57 - INFO. [Download] HTTP=0.
+2023-12-30 13:40:57 - INFO. Accepting connection from ('127.0.0.1', 64877)
+2023-12-30 13:40:58 - INFO. Handling request from ('127.0.0.1', 64877), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:40:58 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:40:58 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1'}.
+2023-12-30 13:40:58 - INFO. User client1 request download.
+2023-12-30 13:40:58 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:40:58 - INFO. [Download] HTTP=0.
+2023-12-30 13:41:02 - INFO. Accepting connection from ('127.0.0.1', 64880)
+2023-12-30 13:41:02 - INFO. Handling request from ('127.0.0.1', 64880), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:41:02 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:02 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1'}.
+2023-12-30 13:41:02 - INFO. User client1 request check login.
+2023-12-30 13:41:02 - INFO. User client1 successfully checked login.
+2023-12-30 13:41:04 - INFO. Accepting connection from ('127.0.0.1', 64883)
+2023-12-30 13:41:05 - INFO. Handling request from ('127.0.0.1', 64883), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}
+2023-12-30 13:41:05 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:05 - INFO. [WWW-Authenticate] Authorization Required.
+2023-12-30 13:41:10 - INFO. Accepting connection from ('127.0.0.1', 64885)
+2023-12-30 13:41:10 - INFO. Handling request from ('127.0.0.1', 64885), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:41:10 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:10 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1'}.
+2023-12-30 13:41:10 - INFO. User client1 request download.
+2023-12-30 13:41:10 - INFO. [Download] sustech_http: 1, chunked: 0.
+2023-12-30 13:41:10 - INFO. [Download] HTTP=1.
+2023-12-30 13:41:20 - INFO. Accepting connection from ('127.0.0.1', 64886)
+2023-12-30 13:41:20 - INFO. Handling request from ('127.0.0.1', 64886), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:41:20 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:20 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1'}.
+2023-12-30 13:41:20 - INFO. User client1 request download.
+2023-12-30 13:41:20 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:41:20 - INFO. [Download] HTTP=0.
+2023-12-30 13:41:29 - INFO. Accepting connection from ('127.0.0.1', 64902)
+2023-12-30 13:41:29 - INFO. Handling request from ('127.0.0.1', 64902), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:41:29 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:29 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1', '45483689': 'client1'}.
+2023-12-30 13:41:29 - INFO. User client1 request download.
+2023-12-30 13:41:29 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:41:29 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:41:40 - INFO. Accepting connection from ('127.0.0.1', 64904)
+2023-12-30 13:41:41 - INFO. Handling request from ('127.0.0.1', 64904), Method: POST, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '157', 'Content-Type': 'multipart/form-data; boundary=388828bd97cdd658c732aa24eae6b428'}
+2023-12-30 13:41:41 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:41 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1', '45483689': 'client1', '35182127': 'client1'}.
+2023-12-30 13:41:41 - INFO. User client1 request upload.
+2023-12-30 13:41:41 - ERROR. [Upload] 404 Not Found.
+2023-12-30 13:41:41 - INFO. Accepting connection from ('127.0.0.1', 64905)
+2023-12-30 13:41:41 - INFO. Handling request from ('127.0.0.1', 64905), Method: POST, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '146', 'Content-Type': 'multipart/form-data; boundary=a8821c8994052b2f716b347bed188330'}
+2023-12-30 13:41:41 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:41 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1', '45483689': 'client1', '35182127': 'client1', '89562676': 'client1'}.
+2023-12-30 13:41:41 - INFO. User client1 request upload.
+2023-12-30 13:41:41 - ERROR. [Upload] 404 Not Found.
+2023-12-30 13:41:42 - INFO. Accepting connection from ('127.0.0.1', 64908)
+2023-12-30 13:41:43 - INFO. Handling request from ('127.0.0.1', 64908), Method: POST, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '0'}
+2023-12-30 13:41:43 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:43 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1', '45483689': 'client1', '35182127': 'client1', '89562676': 'client1', '43144651': 'client1'}.
+2023-12-30 13:41:43 - INFO. User client1 request delete.
+2023-12-30 13:41:44 - INFO. Accepting connection from ('127.0.0.1', 64909)
+2023-12-30 13:41:45 - INFO. Handling request from ('127.0.0.1', 64909), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:41:45 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:45 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1', '45483689': 'client1', '35182127': 'client1', '89562676': 'client1', '43144651': 'client1', '12377113': 'client1'}.
+2023-12-30 13:41:45 - INFO. User client1 request download.
+2023-12-30 13:41:45 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:41:45 - INFO. [Download] HTTP=0.
+2023-12-30 13:41:47 - INFO. Accepting connection from ('127.0.0.1', 64911)
+2023-12-30 13:41:47 - INFO. Handling request from ('127.0.0.1', 64911), Method: GET, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'session-id=12377113'}
+2023-12-30 13:41:47 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:47 - INFO. User client1 request download.
+2023-12-30 13:41:47 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:41:47 - INFO. [Download] HTTP=0.
+2023-12-30 13:41:49 - INFO. Accepting connection from ('127.0.0.1', 64912)
+2023-12-30 13:41:49 - INFO. Handling request from ('127.0.0.1', 64912), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:41:49 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:49 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'54507699': 'client1', '01286567': 'client1', '51568248': 'client1', '34774062': 'client1', '34810863': 'client1', '52739294': 'client1', '52748244': 'client1', '15424944': 'client1', '71231990': 'client1', '45483689': 'client1', '35182127': 'client1', '89562676': 'client1', '43144651': 'client1', '12377113': 'client1', '32356496': 'client1'}.
+2023-12-30 13:41:49 - INFO. User client1 request download.
+2023-12-30 13:41:49 - INFO. [Download] sustech_http: 0, chunked: 1.
+2023-12-30 13:41:49 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:41:51 - INFO. Accepting connection from ('127.0.0.1', 64926)
+2023-12-30 13:41:52 - INFO. Handling request from ('127.0.0.1', 64926), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic MTIxMTAxMDQ6MTIzNDU2', 'Range': '0-1,1-2,2-3'}
+2023-12-30 13:41:52 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:41:52 - ERROR. Unauthorized: no such user, username: 12110104.
+2023-12-31 12:26:36 - INFO. Server listening on localhost:8080...

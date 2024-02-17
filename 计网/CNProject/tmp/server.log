@@ -1,0 +1,187 @@
+2023-12-30 13:53:54 - INFO. Server listening on localhost:8080...
+2023-12-30 13:54:10 - INFO. Accepting connection from ('127.0.0.1', 51691)
+2023-12-30 13:54:11 - INFO. Handling request from ('127.0.0.1', 51691), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:11 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:11 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1'}.
+2023-12-30 13:54:11 - INFO. User client1 request check login.
+2023-12-30 13:54:11 - INFO. User client1 successfully checked login.
+2023-12-30 13:54:14 - INFO. Accepting connection from ('127.0.0.1', 51693)
+2023-12-30 13:54:14 - INFO. Handling request from ('127.0.0.1', 51693), Method: GET, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:14 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:14 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1'}.
+2023-12-30 13:54:14 - INFO. User client1 request download.
+2023-12-30 13:54:14 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:54:14 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:54:18 - INFO. Accepting connection from ('127.0.0.1', 51695)
+2023-12-30 13:54:19 - INFO. Handling request from ('127.0.0.1', 51695), Method: POST, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '0'}
+2023-12-30 13:54:19 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:19 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1'}.
+2023-12-30 13:54:19 - INFO. User client1 request check login.
+2023-12-30 13:54:19 - ERROR. 405 Method Not Allowed.
+2023-12-30 13:54:26 - INFO. Accepting connection from ('127.0.0.1', 51711)
+2023-12-30 13:54:27 - INFO. Handling request from ('127.0.0.1', 51711), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:27 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:27 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1'}.
+2023-12-30 13:54:27 - INFO. User client1 request download.
+2023-12-30 13:54:27 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:54:27 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:54:27 - INFO. Handling request from ('127.0.0.1', 51711), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Cookie': 'session-id=65504356'}
+2023-12-30 13:54:27 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:27 - INFO. User client1 request download.
+2023-12-30 13:54:27 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:54:27 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:54:28 - INFO. Accepting connection from ('127.0.0.1', 51712)
+2023-12-30 13:54:29 - INFO. Handling request from ('127.0.0.1', 51712), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:29 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:29 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1'}.
+2023-12-30 13:54:29 - INFO. User client1 request download.
+2023-12-30 13:54:29 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:54:29 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:54:29 - INFO. Accepting connection from ('127.0.0.1', 51713)
+2023-12-30 13:54:29 - INFO. Handling request from ('127.0.0.1', 51713), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:29 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:29 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1'}.
+2023-12-30 13:54:29 - INFO. User client1 request download.
+2023-12-30 13:54:29 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:54:29 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:54:33 - INFO. Accepting connection from ('127.0.0.1', 51716)
+2023-12-30 13:54:33 - INFO. Handling request from ('127.0.0.1', 51716), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:33 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:33 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1'}.
+2023-12-30 13:54:33 - INFO. User client1 request check login.
+2023-12-30 13:54:33 - INFO. User client1 successfully checked login.
+2023-12-30 13:54:35 - INFO. Accepting connection from ('127.0.0.1', 51718)
+2023-12-30 13:54:36 - INFO. Handling request from ('127.0.0.1', 51718), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}
+2023-12-30 13:54:36 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:36 - INFO. [WWW-Authenticate] Authorization Required.
+2023-12-30 13:54:37 - INFO. Accepting connection from ('127.0.0.1', 51720)
+2023-12-30 13:54:38 - INFO. Handling request from ('127.0.0.1', 51720), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:38 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:38 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1'}.
+2023-12-30 13:54:38 - INFO. User client1 request download.
+2023-12-30 13:54:38 - INFO. [Download] sustech_http: 1, chunked: 0.
+2023-12-30 13:54:38 - ERROR. [Download] 404 Not Found.
+2023-12-30 13:54:40 - INFO. Accepting connection from ('127.0.0.1', 51722)
+2023-12-30 13:54:40 - INFO. Handling request from ('127.0.0.1', 51722), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 13:54:40 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 13:54:40 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1'}.
+2023-12-30 13:54:40 - INFO. User client1 request download.
+2023-12-30 13:54:40 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 13:54:40 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:10 - INFO. Accepting connection from ('127.0.0.1', 52293)
+2023-12-30 14:10:11 - INFO. Handling request from ('127.0.0.1', 52293), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:11 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:11 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1'}.
+2023-12-30 14:10:11 - INFO. User client1 request check login.
+2023-12-30 14:10:11 - INFO. User client1 successfully checked login.
+2023-12-30 14:10:13 - INFO. Accepting connection from ('127.0.0.1', 52295)
+2023-12-30 14:10:13 - INFO. Handling request from ('127.0.0.1', 52295), Method: GET, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:13 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:13 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1'}.
+2023-12-30 14:10:13 - INFO. User client1 request download.
+2023-12-30 14:10:13 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:13 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:15 - INFO. Accepting connection from ('127.0.0.1', 52297)
+2023-12-30 14:10:16 - INFO. Handling request from ('127.0.0.1', 52297), Method: POST, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '0'}
+2023-12-30 14:10:16 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:16 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1'}.
+2023-12-30 14:10:16 - INFO. User client1 request check login.
+2023-12-30 14:10:16 - ERROR. 405 Method Not Allowed.
+2023-12-30 14:10:16 - INFO. Accepting connection from ('127.0.0.1', 52298)
+2023-12-30 14:10:16 - INFO. Handling request from ('127.0.0.1', 52298), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:16 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:16 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1'}.
+2023-12-30 14:10:16 - INFO. User client1 request download.
+2023-12-30 14:10:16 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:16 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:17 - INFO. Handling request from ('127.0.0.1', 52298), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Cookie': 'session-id=64821143'}
+2023-12-30 14:10:17 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:17 - INFO. User client1 request download.
+2023-12-30 14:10:17 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:17 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:17 - INFO. Accepting connection from ('127.0.0.1', 52299)
+2023-12-30 14:10:17 - INFO. Handling request from ('127.0.0.1', 52299), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:17 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:17 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1'}.
+2023-12-30 14:10:17 - INFO. User client1 request download.
+2023-12-30 14:10:17 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:17 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:17 - INFO. Accepting connection from ('127.0.0.1', 52300)
+2023-12-30 14:10:18 - INFO. Handling request from ('127.0.0.1', 52300), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:18 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:18 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1'}.
+2023-12-30 14:10:18 - INFO. User client1 request download.
+2023-12-30 14:10:18 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:18 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:20 - INFO. Accepting connection from ('127.0.0.1', 52302)
+2023-12-30 14:10:20 - INFO. Handling request from ('127.0.0.1', 52302), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:20 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:20 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1'}.
+2023-12-30 14:10:20 - INFO. User client1 request check login.
+2023-12-30 14:10:20 - INFO. User client1 successfully checked login.
+2023-12-30 14:10:22 - INFO. Accepting connection from ('127.0.0.1', 52319)
+2023-12-30 14:10:23 - INFO. Handling request from ('127.0.0.1', 52319), Method: HEAD, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}
+2023-12-30 14:10:23 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:23 - INFO. [WWW-Authenticate] Authorization Required.
+2023-12-30 14:10:23 - INFO. Accepting connection from ('127.0.0.1', 52320)
+2023-12-30 14:10:23 - INFO. Handling request from ('127.0.0.1', 52320), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:23 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:23 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1'}.
+2023-12-30 14:10:23 - INFO. User client1 request download.
+2023-12-30 14:10:23 - INFO. [Download] sustech_http: 1, chunked: 0.
+2023-12-30 14:10:23 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:23 - INFO. Accepting connection from ('127.0.0.1', 52322)
+2023-12-30 14:10:24 - INFO. Handling request from ('127.0.0.1', 52322), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:24 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:24 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1'}.
+2023-12-30 14:10:24 - INFO. User client1 request download.
+2023-12-30 14:10:24 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:24 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:24 - INFO. Accepting connection from ('127.0.0.1', 52324)
+2023-12-30 14:10:25 - INFO. Handling request from ('127.0.0.1', 52324), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:25 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:25 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1', '71901342': 'client1'}.
+2023-12-30 14:10:25 - INFO. User client1 request download.
+2023-12-30 14:10:25 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:25 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:25 - INFO. Accepting connection from ('127.0.0.1', 52325)
+2023-12-30 14:10:25 - INFO. Handling request from ('127.0.0.1', 52325), Method: POST, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '157', 'Content-Type': 'multipart/form-data; boundary=a6141ebdec8c875a4110f96353aa2073'}
+2023-12-30 14:10:25 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:25 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1', '71901342': 'client1', '23833995': 'client1'}.
+2023-12-30 14:10:25 - INFO. User client1 request upload.
+2023-12-30 14:10:25 - ERROR. [Upload] 404 Not Found.
+2023-12-30 14:10:25 - INFO. Accepting connection from ('127.0.0.1', 52326)
+2023-12-30 14:10:26 - INFO. Handling request from ('127.0.0.1', 52326), Method: POST, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '146', 'Content-Type': 'multipart/form-data; boundary=b709549e7998070ece1c0a48f58d6498'}
+2023-12-30 14:10:26 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:26 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1', '71901342': 'client1', '23833995': 'client1', '11429906': 'client1'}.
+2023-12-30 14:10:26 - INFO. User client1 request upload.
+2023-12-30 14:10:26 - ERROR. [Upload] 404 Not Found.
+2023-12-30 14:10:26 - INFO. Accepting connection from ('127.0.0.1', 52327)
+2023-12-30 14:10:26 - INFO. Handling request from ('127.0.0.1', 52327), Method: POST, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM=', 'Content-Length': '0'}
+2023-12-30 14:10:26 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:26 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1', '71901342': 'client1', '23833995': 'client1', '11429906': 'client1', '70267571': 'client1'}.
+2023-12-30 14:10:26 - INFO. User client1 request delete.
+2023-12-30 14:10:26 - INFO. Accepting connection from ('127.0.0.1', 52328)
+2023-12-30 14:10:27 - INFO. Handling request from ('127.0.0.1', 52328), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:27 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:27 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1', '71901342': 'client1', '23833995': 'client1', '11429906': 'client1', '70267571': 'client1', '23914434': 'client1'}.
+2023-12-30 14:10:27 - INFO. User client1 request download.
+2023-12-30 14:10:27 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:27 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:29 - INFO. Accepting connection from ('127.0.0.1', 52330)
+2023-12-30 14:10:29 - INFO. Handling request from ('127.0.0.1', 52330), Method: GET, Request_Header: {'Host': 'localhost:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Cookie': 'session-id=23914434'}
+2023-12-30 14:10:29 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:29 - INFO. User client1 request download.
+2023-12-30 14:10:29 - INFO. [Download] sustech_http: 0, chunked: 0.
+2023-12-30 14:10:29 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:29 - INFO. Accepting connection from ('127.0.0.1', 52331)
+2023-12-30 14:10:30 - INFO. Handling request from ('127.0.0.1', 52331), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic Y2xpZW50MToxMjM='}
+2023-12-30 14:10:30 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:30 - INFO. Successfully Validated, username: client1, password: 123, cookies: {'45914093': 'client1', '71261505': 'client1', '16240459': 'client1', '65504356': 'client1', '42490563': 'client1', '79288343': 'client1', '27967297': 'client1', '62130778': 'client1', '21208781': 'client1', '85003989': 'client1', '26470691': 'client1', '35693928': 'client1', '64821143': 'client1', '92829247': 'client1', '41429135': 'client1', '94482387': 'client1', '47587104': 'client1', '53856604': 'client1', '71901342': 'client1', '23833995': 'client1', '11429906': 'client1', '70267571': 'client1', '23914434': 'client1', '60322375': 'client1'}.
+2023-12-30 14:10:30 - INFO. User client1 request download.
+2023-12-30 14:10:30 - INFO. [Download] sustech_http: 0, chunked: 1.
+2023-12-30 14:10:30 - ERROR. [Download] 404 Not Found.
+2023-12-30 14:10:30 - INFO. Accepting connection from ('127.0.0.1', 52332)
+2023-12-30 14:10:30 - INFO. Handling request from ('127.0.0.1', 52332), Method: GET, Request_Header: {'Host': '127.0.0.1:8080', 'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Authorization': 'Basic MTIxMTAxMDQ6MTIzNDU2', 'Range': '0-1,1-2,2-3'}
+2023-12-30 14:10:30 - INFO. [Connection] Persistent Connect: keep-alive.
+2023-12-30 14:10:30 - ERROR. Unauthorized: no such user, username: 12110104.
