@@ -1,0 +1,194 @@
+.data 
+.text
+###每次执行完对应的测试用例均跳转至begin重新输入测试用例
+start: lui   $28,0xFFFF			
+       ori   $28,$28,0xF000		
+begin_1:
+lw $s7,0xC7C($28)
+bne $s7,$zero,begin_1
+begin_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,begin_2
+lw $a3,0xC78($28)#a3存放的是测试用例
+sw $zero,0xC60($28)
+sw $zero,0xC68($28)
+addi $s2,$zero,0
+beq $a3,$s2,test0_1
+addi $s2,$s2,1
+beq $a3,$s2,test1_1
+addi $s2,$s2,1
+beq $a3,$s2,test2_1
+addi $s2,$s2,1
+beq $a3,$s2,test3_1
+addi $s2,$s2,1
+beq $a3,$s2,test4_1
+addi $s2,$s2,1
+beq $a3,$s2,test5_1
+addi $s2,$s2,1
+beq $a3,$s2,test6_1
+addi $s2,$s2,1
+beq $a3,$s2,test7_1
+
+####################################
+test0_1:
+lw $s7,0xC7C($28)
+bne $s7,$zero,test0_1
+test0_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test0_2
+lw $v0,0xC70($28)#v0存放a的值，a存在C70字的低16位
+sw $v0,0xC60($28)#将v0也就是a的值显示在led灯上
+addi $s0,$v0,0#将v0存入s0与t0，方便比较
+addi $t0,$v0,0
+addi $t1,$zero,0
+
+addiu $s0,$s0,-1
+and $t1,$t0,$s0 #t1为0说明是2的幂，
+beq $t1,$zero,yes0
+
+lui $v0,0
+sw $v0,0xC68($28)#若a不是2的幂，则led灯不亮
+j begin_1
+
+yes0:
+lui $v0,1
+sw $v0,0xC68($28)#若a是2的幂，则led灯亮
+j begin_1
+
+####################################
+
+test1_1:
+
+lw $s7,0xC7C($28)
+bne $s7,$zero,test1_1
+test1_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test1_2
+lw $v0,0xC70($28)#v0存放a的值，a存在C70字的低16位
+sw $v0,0xC60($28)#将v0也就是a的值显示在led灯上
+addi $s0,$v0,0#将v0存入s0与t0，方便比较
+
+addi $t1,$zero,0
+
+
+sll  $t0,$s0,31
+srl  $t1,$t0,31
+
+beq $t1,$zero,no1
+
+lui $v0,1
+sw $v0,0xC68($28)#若a为奇数，则led灯亮
+j begin_1
+
+no1:
+lui $v0,0
+sw $v0,0xC68($28)#若a不是奇数，则led灯不亮
+j begin_1
+
+####################################
+test2_1:
+lw $s7,0xC7C($28)#s7表示使能信号，拨下开关，开始计算
+bne $s7,$zero,test2_1
+test2_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test2_2
+or  $a0,$t6,$t7
+sw  $a0,0xC60($28)
+j begin_1
+####################################
+test3_1:
+lw $s7,0xC7C($28)#s7表示使能信号，拨下开关，开始计算
+bne $s7,$zero,test3_1
+test3_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test3_2
+nor  $a0,$t6,$t7
+sw  $a0,0xC60($28)
+j begin_1
+####################################
+test4_1:
+lw $s7,0xC7C($28)#s7表示使能信号，拨下开关，开始计算
+bne $s7,$zero,test4_1
+test4_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test4_2
+xor  $a0,$t6,$t7
+sw  $a0,0xC60($28)
+j begin_1
+####################################
+test5_1:
+lw $s7,0xC7C($28)#s7表示使能信号，拨下开关，开始计算
+bne $s7,$zero,test5_1
+test5_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test5_2
+
+
+sll $t3, $t6, 24
+srl $t3, $t3, 31
+beq $t3, $zero, extenceb
+
+lui $t0, 0xFFFF
+ori $t0, $t0, 0xFF00
+or $t6, $t6, $t0
+
+extenceb:
+sll $t3, $t7, 24
+srl $t3, $t3, 31
+beq $t3, $zero, noextence
+
+lui $t0, 0xFFFF
+ori $t0, $t0, 0xFF00
+or $t7, $t7, $t0
+
+noextence:
+
+
+slt $a0,$t6,$t7
+beq $a0, $zero, test5_not
+lui $v0, 1
+sw $v0,0xC68($28)
+j begin_1
+
+test5_not:
+lui $v0, 0
+sw $v0,0xC68($28)
+j begin_1
+####################################
+test6_1:
+lw $s7,0xC7C($28)#s7表示使能信号，拨下开关，开始计算
+bne $s7,$zero,test6_1
+test6_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test6_2
+sltu $a0,$t6,$t7
+beq $a0, $zero, test6_not
+lui $v0, 1
+sw $v0,0xC68($28)
+j begin_1
+
+test6_not:
+lui $v0, 0
+sw $v0,0xC68($28)
+j begin_1
+####################################
+test7_1:
+lw $s7,0xC7C($28)
+bne $s7,$zero,test7_1
+test7_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,test7_2
+lw $t6,0xC70($28)
+sw $t6,0xC60($28)#将v0也就是a的值显示在led灯上
+
+
+inputb7_1:
+lw $s7,0xC7C($28)#s7表示使能信号，输入完a后，拨上拨码，从板子读取b的值，接着需要拨下开关，继续读取b
+bne $s7,$zero,inputb7_1
+inputb7_2:
+lw $s7,0xC7C($28)
+beq $s7,$zero,inputb7_2
+lw $t7,0xC70($28)
+sw $t7,0xC60($28)#将v0也就是b的值显示在led灯上
+
+j begin_1
