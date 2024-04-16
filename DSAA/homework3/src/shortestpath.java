@@ -6,35 +6,38 @@ public class shortestpath {
     public static void main(String[] args){
         QReader in = new QReader();
         QWriter out = new QWriter();
-            int n =in.nextInt();
-            int m = in.nextInt();
+        int n =in.nextInt();
+        int m = in.nextInt();
 
-            int[] dist = new int[n+1];
-            Arrays.fill(dist,Integer.MAX_VALUE);
-            dist[1]=0;
+        int[] dist = new int[n+1];
+        Arrays.fill(dist,Integer.MAX_VALUE);
+        dist[1]=0;
 
         for (int i = 0; i <= n; i++) {
 
             list.add(new ArrayList<>());
         }
-            for (int i = 0; i < m; i++) {
-                int u = in.nextInt();
-                int v = in.nextInt();
-                int weigh=in.nextInt();
-                list.get(u).add(new int[]{v,weigh});
+        for (int i = 0; i < m; i++) {
+            int u = in.nextInt();
+            int v = in.nextInt();
+            int weigh=in.nextInt();
+            list.get(u).add(new int[]{v,weigh});
 
+        }
+
+
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>(new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[1]-o2[1];
             }
-
-            int[] visited = new int[n+1];
-
-        PriorityQueue<int[]> pq = new PriorityQueue<>();
+        });
         pq.add(new int[]{1, 0});
 
         while (!pq.isEmpty()) {
             int[] curr = pq.poll();
-            if (visited[curr[0]]==0) {
-                visited[curr[0]] = 1;
-            }
+
 
             for (int[] next : list.get(curr[0])) {
                 if (dist[next[0]] > dist[curr[0]] + next[1]) {
@@ -44,15 +47,15 @@ public class shortestpath {
             }
         }
 
-            for (int i = 1; i < n; i++) {
-                if (dist[i]==Integer.MAX_VALUE){
-                    out.print(-1+" ");
-                }else {
+        for (int i = 1; i < n+1; i++) {
+            if (dist[i]==Integer.MAX_VALUE){
+                out.print(-1+" ");
+            }else {
                 out.print(dist[i] + " ");}
-            }
-
-            out.close();
         }
+
+        out.close();
+    }
     static   class QReader {
         private BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         private StringTokenizer tokenizer = new StringTokenizer("");
